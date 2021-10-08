@@ -18,3 +18,7 @@
 - 过后就想在class里void drawBox function里先用switch loop限制5种灰度，然后再想办法找一闪一闪的函数的bug
 - 结果没想到就这样达成一闪一闪的效果了！
 - 意外的惊喜！
+
+![效果图1](https://user-images.githubusercontent.com/90959477/136550064-d4f116f8-18ab-4d55-9383-d14d0c57115d.png)
+
+![效果图2](https://user-images.githubusercontent.com/90959477/136550091-6dbf1f1e-c80f-4eb9-8566-d81ccd43ee3b.png)
