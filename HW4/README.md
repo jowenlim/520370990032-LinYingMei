@@ -28,3 +28,18 @@
 - 我希望由歌词组成的小方块能在画板上居中对齐
 - 但是用了rectMode(CENTER) - 效果不对
 - 或许要自己做另外一套算法
+
+## 成品
+
+### 示范 英文字母和符号
+![ABCtesting](https://user-images.githubusercontent.com/90959477/137854676-919d5663-5666-427a-b9ca-c02c3f17831a.png)
+### 中国
+![China_YiYongJunJinXingQu](https://user-images.githubusercontent.com/90959477/137854686-905e84aa-a622-43b8-b629-b58d1f261c83.png)
+### 马来西亚
+![Malaysia_Negaraku](https://user-images.githubusercontent.com/90959477/137854723-42c22361-f7d2-4fdc-8d9b-8db5dbc3624e.png)
+### 新加坡
+![Singapore_MajulahSingapura](https://user-images.githubusercontent.com/90959477/137854728-96573b15-be57-4084-80e8-fdaa18182b71.png)
+### 日本
+![Japan_Kimigayo](https://user-images.githubusercontent.com/90959477/137854700-46de9cd9-a245-4832-bf0e-77c0587dfd6a.png)
+### 韩国
+![Korea_Aegukga](https://user-images.githubusercontent.com/90959477/137854712-af1a9aab-23c5-4f2c-8d48-2918bba8bda0.png)
