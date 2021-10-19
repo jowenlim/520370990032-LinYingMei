@@ -1,9 +1,9 @@
 ABCDEFG,
 HIJKLMN,
 OPQRSTU,
-VWXYZ ,.
+VWXYZ,. 
 
 abcdefg,
 hijklmn,
 opqrstu,
-vwxyz -;
+vwxyz!;-
