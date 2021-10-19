@@ -32,7 +32,7 @@
 ## 成品
 
 ### 示范 英文字母和符号
-![ABCtesting](https://user-images.githubusercontent.com/90959477/137854676-919d5663-5666-427a-b9ca-c02c3f17831a.png)
+![ABCtesting](https://user-images.githubusercontent.com/90959477/137855694-b80fd915-ac62-48d6-aece-d5ff66c3862c.png)
 ### 中国
 ![China_YiYongJunJinXingQu](https://user-images.githubusercontent.com/90959477/137854686-905e84aa-a622-43b8-b629-b58d1f261c83.png)
 ### 马来西亚
