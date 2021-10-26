@@ -11,32 +11,38 @@
     - 画板颜色 - 白色
     - 线条颜色 - 白色
     - 线条粗细 - 最细（最左边）
+![default](https://user-images.githubusercontent.com/90959477/138831983-13df29c8-6749-457a-81f4-a38b02cfba11.jpg)
 
 ### 2. 画板颜色
 - 画板可选择6种颜色：白色、灰色、黑色、浅黄色、浅绿色及浅蓝色
 - 编码思路为：
     - 每点击一个相应的按钮，就会画出一个新的长方形，并覆盖原有的长方形
     - 另外，相对应的按钮上方也会画出红色的圆点，而其他5个按钮上下方的圆点则会被与背景色一样颜色的圆点覆盖
+![background](https://user-images.githubusercontent.com/90959477/138831972-5bbadf86-11ee-4786-9848-351f65e2d4be.jpg)
 
 ### 3. 线条颜色
 - 线条可选择10种颜色：白色、灰色、黑色、红色、橙色、黄色、绿色、蓝色、紫色及粉色
 - 思路为：
     - 每点击一个按钮，就会设置系统为每个颜色相对应的RGB数值，这样软件就只能画出一种RGB数值的颜色
+![line_colour](https://user-images.githubusercontent.com/90959477/138831988-ea8cbee4-7704-4dc9-8991-9b8f25a1a763.jpg)
 
 ### 4. 线条粗细
 - 线条可选择5种粗细度
 - 思路为: 
     - 使用strokeWeight函数
+![stroke_weight](https://user-images.githubusercontent.com/90959477/138831992-492e0994-0bf8-4d15-a376-adea09383b17.jpg)
 
 ### 5. 橡皮擦
 - 可擦除线条
 - 思路为：
     - 把线条颜色改为背景色的RGB数值
+![eraser](https://user-images.githubusercontent.com/90959477/138831986-c3a46764-d2b7-4cd9-a1f3-f567b33d4970.jpg)
 
 ### 6. 清除画板
 - 清楚所有线条
 - 思路为：
     - 点击按钮，就会画出与之前画板颜色一样的长方形，并覆盖住原有的画板
+![clear](https://user-images.githubusercontent.com/90959477/138831982-3165fe44-761c-4d1f-ad1a-ee366d5b7261.jpg)
 
 ### 7. 保存画板
 - 可保存画板为jpg格式
