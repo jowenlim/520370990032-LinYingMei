@@ -15,14 +15,17 @@
 - 只要长按键盘上任何一键，泡泡就会一个个破掉
 
 ### 一开始的小泡泡
-
+![blue_half](https://user-images.githubusercontent.com/90959477/141286807-ce2c646f-b4cc-451c-a4df-bb42c39686d5.png)
 ### 聚合成大泡泡
-
+![blue_full](https://user-images.githubusercontent.com/90959477/141286822-739e4dec-c98e-4b6b-89bc-63dd97e9742d.png)
 ### 泡泡一个个地破掉
-
+![white_half](https://user-images.githubusercontent.com/90959477/141286820-3ce9acce-91a7-431e-8035-8d9eb5e1a59c.png)
 ### 全部泡泡破掉了
-
+![white_full](https://user-images.githubusercontent.com/90959477/141286817-7901ac7f-c931-4ca9-b74b-8050ea7a516c.png)
 ### 完整效果
+![bubble_animation](https://user-images.githubusercontent.com/90959477/141286812-5eb05df6-6666-4dcf-9c3f-b68b3eb02f6e.gif)
+
+
 
 
 
