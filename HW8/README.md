@@ -19,12 +19,14 @@
             - 因此算法永远跑不完，目标词汇也不会出现
 
 ### 运行初 - 要输入目标词汇
-
+![start](https://user-images.githubusercontent.com/90959477/141685398-df325722-0de8-4f2b-8c64-8d460d039816.png)
 ### 运行中 - 右边为生成过的每一个不同词汇
-
+![running](https://user-images.githubusercontent.com/90959477/141685393-b0de4ae0-27b2-41f2-907b-431982005ec0.png)
 ### 运行完毕 - 用时为84.154秒
-
+![end](https://user-images.githubusercontent.com/90959477/141685391-5aedb5c3-fadd-4982-b73b-727125c17ed5.png)
 ### 完整效果
+https://github.com/jowenlim/520370990032-LinYingMei/blob/main/HW8/Jowen_H8_animation.mp4
+
 
 
 
