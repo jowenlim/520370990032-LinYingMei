@@ -182,6 +182,7 @@ if ((mouseX>720) && (mouseX<800) && (mouseY>200) && (mouseY<280)){//clear all
 ---
 
 ## 示范性作品
+![Jowen_H9_示范性作品](https://user-images.githubusercontent.com/90959477/142189467-0d989303-f8f0-4af2-aa4d-cd1ac56543f5.jpg)
 - 16*16的像素
 ![pokemonball](https://user-images.githubusercontent.com/90959477/142155387-7a35608e-cafb-4610-94b4-0f2300171875.jpg)
 - 32*32的像素
@@ -193,9 +194,7 @@ if ((mouseX>720) && (mouseX<800) && (mouseY>200) && (mouseY<280)){//clear all
 ![charizard](https://user-images.githubusercontent.com/90959477/142155379-67c5a035-1568-4072-ae34-cfee3672a24a.png)
 - 4个作品的缩时录影视频 
 
-
-
 --- 
 
 ## 软件说明书预览 - A3纸 
-
+![Jowen_H9_软件说明书](https://user-images.githubusercontent.com/90959477/142189258-fe868eb6-e5ea-4a24-9097-8623afeb15c2.jpg)
