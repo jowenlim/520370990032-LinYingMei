@@ -24,6 +24,38 @@
 - 编程思路为：
     - 每点击一个相应的按钮，就会画出一个新的白色正方形，再接着画出该像素的大小，线条以及刻度
 
+```
+if ((mouseX>240) && (mouseX<320) && (mouseY>200) && (mouseY<280)){//16 grid
+      noStroke();
+      fill(255);
+      rect(880,40,960,960);
+      fill(96);
+      rect(1841,41,40,980);
+      rect(870,1001,980,40);
+      grid_flag=1;
+      for (int i=1; i<3; i++){
+      textAlign(LEFT);
+      fill(255);
+      textSize(14);
+      text(i,637+i*480,1020);//horizontal
+      text(i,1850,-200+i*480);//vertical
+      }
+      for (int i=0; i<17; i++){
+      stroke(200);
+      strokeWeight(1);
+      line(880+i*60,40,880+i*60,1000);//vertical
+      line(880,40+i*60,1840,40+i*60);//horizontal
+      }
+      for (int i=0; i<17; i+=8){
+      stroke(96);
+      strokeWeight(1.4);
+      line(880+i*60,40,880+i*60,1000);//vertical
+      line(880,40+i*60,1840,40+i*60);//horizontal
+      }
+    }
+```
+
+
 ### 3. 颜色选项
 - 一共有130种颜色供选择
 - 分别为13种主色以及其相应的10种深至浅的颜色选项
@@ -52,6 +84,8 @@
     5. 如果格子难分辨，画板旁边有刻度，8个小方块为一个小区域
 - 编程思路为：
     - 使用mousePressed函数以及for loop来确认每一个方块是否有被点击到
+    - 使用到了switch statement以及grid_flag这个参数，每个像素大小分别对应1、2、3以及4
+    - “CLEAR ALL”选项的grid_flag为0，这样无论怎么点，只要没有选择像素大小，画板就不会画出小方块
 
 ---
 
