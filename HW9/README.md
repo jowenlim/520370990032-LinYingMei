@@ -7,7 +7,8 @@
 ## 灵感来源
 - 来自小时候玩的游戏机的画面
 - 例如：很经典的任天堂的马里奥游戏以及神奇宝贝GBA游戏
-
+![Pokemon-gba](https://user-images.githubusercontent.com/90959477/142154649-3f93f02f-dafb-4d6e-8ad7-f091d8ad3809.png)
+![Pokemon-gba-scenery](https://user-images.githubusercontent.com/90959477/142154656-f9e565a3-74cc-4d9d-a4e9-0cc4e4c64a2c.png)
 ---
 
 ## 功能介绍
@@ -16,11 +17,21 @@
 - 页面采用黑白灰色调
 - 在屏幕左上角，有利用个个小方块画成的 “PIXEL WORLD”，这个字体就类似像素风格的字体，中文的话可以翻译成像素世界
 - 这软件具有调整画板像素大小、选择颜色及根据自己特定的名字保存画板的功能
+![页面设置](https://user-images.githubusercontent.com/90959477/142155406-b1132f2e-976b-43f6-9360-c7b81352745a.png)
 
 ### 2. 画板像素大小
-- 画板可选择4种像素大小：16*16/32*32、64*64以及128*128
-= 这四种大小是经典的PIXEL ART的大小
+- 画板可选择4种像素大小：16*16、32*32、64*64以及128*128
+- 这四种大小是经典的PIXEL ART的大小
 - 另外还有 “CLEAR ALL” 的按钮，功能为清空画板，只要点击这个按钮，画板就会变成全白色，然后再点击想要的像素大小就可以了
+    1. 16*16 
+    ![像素16](https://user-images.githubusercontent.com/90959477/142155411-00c0c51b-24dd-4fde-b5bb-09cc74da9510.png)
+    2. 32*32
+    ![像素32](https://user-images.githubusercontent.com/90959477/142155414-c0ae9876-7ece-41dc-9867-aae061481ebd.png)
+    3. 64*64
+    ![像素64](https://user-images.githubusercontent.com/90959477/142155415-ddec8fd7-9d3b-4359-95d2-52ff9f1e24c4.png)
+    4. 128*128    
+    ![像素128](https://user-images.githubusercontent.com/90959477/142155418-a6e16242-4cc8-4fed-9f9c-a0d9c921c9f5.png)
+    
 - 编程思路为：
     - 每点击一个相应的按钮，就会画出一个新的白色正方形，再接着画出该像素的大小，线条以及刻度
 ```ruby
@@ -54,11 +65,12 @@ if ((mouseX>240) && (mouseX<320) && (mouseY>200) && (mouseY<280)){//16 grid
     }
 ```
 
-
 ### 3. 颜色选项
 - 一共有130种颜色供选择
 - 分别为13种主色以及其相应的10种深至浅的颜色选项
 - 每选中一个颜色，颜色对应的RGB数值以及其颜色小方块，会在 “COLOR” 的右边显示
+![颜色预览](https://user-images.githubusercontent.com/90959477/142155408-e49c252c-3055-4063-8784-8b806f4740d1.png)
+
 - 编程思路为：
     - 每点击一个按钮，就会设置系统为每个颜色相对应的RGB数值，这样软件就只能画出一种RGB数值的颜色
 ```ruby
@@ -85,6 +97,8 @@ noStroke();
 
 ### 4. 保存画板
 - 可在 “FILENAME” 右边打出特定的文件名字，并点击 “SAVE AS PIC” 保存画板为JPG格式
+- 下面的作品以 “travis1”的名字保存
+    ![Travis1](https://user-images.githubusercontent.com/90959477/142155410-6d7ad109-1996-4d8d-99c8-3a0bbae2c2bf.png)
 - 具体步骤为：
     1. 点击 “FILENAME” 右边的白色格子
     2. 利用键盘打出想要的文件名字
@@ -167,14 +181,17 @@ if ((mouseX>720) && (mouseX<800) && (mouseY>200) && (mouseY<280)){//clear all
 
 ## 示范性作品
 - 16*16的像素
-
+![pokemonball](https://user-images.githubusercontent.com/90959477/142155387-7a35608e-cafb-4610-94b4-0f2300171875.jpg)
 - 32*32的像素
-
+![charmander](https://user-images.githubusercontent.com/90959477/142155382-a126de7a-1352-483f-8fe2-440183bf8733.png)
 - 64*64的像素
-
+![charmeleon](https://user-images.githubusercontent.com/90959477/142155370-613c1e26-7324-43f9-b82f-aa2c06693a15.png)
 - 128*128的像素
 
+![charizard](https://user-images.githubusercontent.com/90959477/142155379-67c5a035-1568-4072-ae34-cfee3672a24a.png)
 - 4个作品的缩时录影视频 
+
+
 
 --- 
 
